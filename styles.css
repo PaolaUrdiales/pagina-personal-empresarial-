@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+* {
+    margin: 0;
+    /*margen de la página*/
+    padding: 10px;
+    /*espacio entre lineas*/
+    box-sizing: border-box;
+    text-decoration: none;
+    /*quita las lineas de los enlaces*/
+
+}
+
+h1 {
+
+    color: #c77;
+    background-position: center;
+    text-align: center;
+    font-family: "Concert One", serif;
+    font-weight: 400;
+    font-style: normal;
+    /*inclinacion*/
+    font-size: 500%;
+    line-height: 200%;/*espaciado entre la pagina y el h1*/
+    background-image:linear-gradient(rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)),
+    url(https://s2.ppllstatics.com/elcorreo/www/multimedia/202210/20/media/cortadas/tienda-perros-bilbao-espana-kihB-U1804282509805TF-1248x770@El%20Correo.JPG); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+a {
+    position: absolute;
+    top: 35px;
+    right: 40px;
+    color: #FFF8E1;
+
+}
+header {
+    width: 100%;
+    height: 150%;
+}
+
+header p {
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+
+}
+
+header span {
+    font-weight: bold;
+    font-size: 140%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 0px;
+    display: block;
+    margin-top: 20px;
+}
+header li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-weight: 100;
+}
+
+
+
+body {
+    background-color: #FFF8E1;
+}
+body h2{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
