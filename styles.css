@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swaprel=stylesheet");
 * {
     margin: 0;
     /*margen de la página*/
@@ -58,7 +58,7 @@ header span {
     margin-top: 20px;
 }
 header li{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:"poppins",sans-serif;
     font-size: large;
     font-weight: 100;
 }
@@ -80,6 +80,60 @@ body h2{
     font-family: Arial, Helvetica, sans-serif;
 }
 .proyectos{
-    width:100%
+    width:80%;
+    display:flex;
+    flex-flow:row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
     
 }
+.proyectos h2{
+    text-align: center;
+    width:100%;
+}
+.proyecto{
+    width:400px;
+    height:515px;
+    box-sizing: border-box;
+    background-color: #c77;
+    display:flex;
+    flex-flow:column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin:30px;
+}
+.proyecto img{
+    width: 100%;
+    
+}
+.proyecto p{
+    font-family: "poppins", sans-serif;
+    font-size: small;
+    text-align: justify;
+    text-align: center;
+}
+form h4{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#FFF8E1;
+}
+form input{
+    width: 100%;
+    padding: 20px;
+    
+    
+}
+
+
+form{
+    background-color:#a93e4a;
+    display:grid;
+    color:#FFF8E1;
+    font-family:"poppins", sans-serif;
+    font-size: 20px;
+    padding: 3%;
+}
+
+
