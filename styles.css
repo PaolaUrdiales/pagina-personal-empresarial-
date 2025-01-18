@@ -123,6 +123,7 @@ body h2{
 }
 /*Decoración por ID en cada uno de los proyectos*/
 #banos{
+    height: 530px;
     color: #26A69A;
     background-color: #d6eadf;
     border-radius: 12px;
@@ -135,6 +136,7 @@ body h2{
 
 }
 #cortes{
+    height: 530px;
     color: #4b1c71;
     background-color:#C8A2D9 ;
     border-radius: 12px;
@@ -147,7 +149,7 @@ body h2{
 
 
 #SPA{
-    height: 560px;
+    height: 590px;
     color:#004173;
     background-color: #C6E1F1;
     border-radius: 12px;
@@ -179,6 +181,7 @@ form textarea{
     background-color: #FFF8E1;
     border: 1px solid beige;
     font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
 }
 form{
     background-color:#FFCC80;
@@ -209,17 +212,25 @@ footer{
     background-color:#D7CBB5 ;
     width: 100%;
     margin: 15px;
+    font-family:sans-serif;
 }
 
 .enlaces{ 
     display:flex; 
     flex-flow: row; 
+    transition: 0.5s;
     
     
 }
 .enlaces li { 
-    margin: 10px; 
-    color:#FFF8E1;
+    margin: 8px 0px; 
+    list-style: none;
+    color:#482E1D;
+    font-size: 32px;
+}
+footer p{
+    text-align: center;
+    color:#482E1D;
 }
 #negrita1{
     font-weight:900;
@@ -237,6 +248,25 @@ footer{
 #copyright{
     font-weight: 650;
 }
+@media (max-width:967px) {
+    header{
+        height: auto;
+    }
+    .proyectos{
+        height: auto;
+        width: 100%;
+    }
+    form{
+        height: auto;
+        width: auto;
+    }
+    footer{
+        height: auto;
+        width: 98%;
 
+    }
+
+    
+}
 
 
