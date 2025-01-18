@@ -219,9 +219,12 @@ footer{
     display:flex; 
     flex-flow: row; 
     transition: 0.5s;
-    
-    
 }
+
+  .enlaces a ion-icon {
+    color: #482E1D; 
+  }
+
 .enlaces li { 
     margin: 8px 0px; 
     list-style: none;
