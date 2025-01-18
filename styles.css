@@ -49,6 +49,14 @@ header p {
     color:#482E1D;
 
 }
+#descripcion{
+    font-family: "poppins", sans-serif;
+    font-size: medium;
+    text-align: center;
+    color:#482E1D;
+    background-color:#D7CBB5 ;
+    font-weight: 300;
+}
 
 header span {
     font-weight: bold;
@@ -100,8 +108,8 @@ body h2{
     width:100%;
 }
 .proyecto{
-    width:400px;
-    height:515px;
+    width:80%;
+    height: px;
     box-sizing: border-box;
     background-color: #c77;
     display:flex;
@@ -112,7 +120,7 @@ body h2{
     margin:30px;
 }
 .proyecto img{
-    width: 100%;
+    width: 80%;
     
 }
 .proyecto p{
@@ -123,7 +131,7 @@ body h2{
 }
 /*Decoración por ID en cada uno de los proyectos*/
 #banos{
-    height: 530px;
+    
     color: #26A69A;
     background-color: #d6eadf;
     border-radius: 12px;
@@ -132,15 +140,12 @@ body h2{
 #banos h3{
     font-family: "Concert One", serif;
     color:#26A69A;
-    
-
 }
 #cortes{
-    height: 530px;
+
     color: #4b1c71;
     background-color:#C8A2D9 ;
     border-radius: 12px;
-
 }
 #cortes h3{
     font-family: "Concert One", serif;
@@ -149,7 +154,6 @@ body h2{
 
 
 #SPA{
-    height: 590px;
     color:#004173;
     background-color: #C6E1F1;
     border-radius: 12px;
@@ -220,7 +224,6 @@ footer{
     flex-flow: row; 
     transition: 0.5s;
 }
-
   .enlaces a ion-icon {
     color: #482E1D; 
   }
