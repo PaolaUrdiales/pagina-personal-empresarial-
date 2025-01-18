@@ -13,7 +13,7 @@
 
 h1 {
 
-    color: #c77;
+    color: #D7CBB5;
     background-position: center;
     text-align: center;
     font-family: "Concert One", serif;
@@ -46,6 +46,7 @@ header p {
     font-size: large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+    color:#482E1D;
 
 }
 
@@ -56,6 +57,7 @@ header span {
     padding: 0 0px;
     display: block;
     margin-top: 20px;
+    color:#604a33;
 }
 header li{
     font-family:"poppins",sans-serif;
@@ -78,10 +80,7 @@ body {
 }
 body h2{
     font-family: Arial, Helvetica, sans-serif;
-}
-body h3{
-    font-family: "Concert One", serif;
-    color:beige;
+    color:#482E1D;
 }
 
 .proyectos{
@@ -118,16 +117,56 @@ body h3{
     font-family: "poppins", sans-serif;
     font-size: small;
     text-align: justify;
-    text-align: center;
+    
 }
+/*Decoración por ID en cada uno de los proyectos*/
+#banos{
+    color: #26A69A;
+    background-color: #d6eadf;
+    border-radius: 12px;
+    
+}
+#banos h3{
+    font-family: "Concert One", serif;
+    color:#26A69A;
+    
+
+}
+#cortes{
+    color: #4b1c71;
+    background-color:#C8A2D9 ;
+    border-radius: 12px;
+
+}
+#cortes h3{
+    font-family: "Concert One", serif;
+    color:#4b1c71;
+}
+
+
+#SPA{
+    height: 560px;
+    color:#004173;
+    background-color: #C6E1F1;
+    border-radius: 12px;
+}
+#SPA h3{
+    font-family: "Concert One", serif;
+    color:#004173;
+
+}
+
+
+/*Decoracion del formulario*/
 form h4{
     font-family:Arial, Helvetica, sans-serif;
-    color:#FFF8E1;
+    color:#E04B06;
+    text-align: center;
 }
 form input{
     width: 100%;
     padding: 20px; 
-    background-color: #ffe4ea;
+    background-color: #FFF8E1;
     border: 1px solid beige;
     font-size: medium;
     
@@ -135,25 +174,26 @@ form input{
 form textarea{
     width: 100%;
     padding: 20px; 
-    background-color: #ffe4ea;
+    background-color: #FFF8E1;
     border: 1px solid beige;
     font-size: medium;
 }
 form{
-    background-color:#a93e4a;
+    background-color:#FFCC80;
     display:grid;
-    color:beige;
+    color:#E04B06;
     font-family:"poppins", sans-serif;
     font-size: 20px;
     padding: 3%;
+    width: 70%;
 }
 #enviar{
-    background-color: beige;
-    border:2px solid #a93e4a;
+    background-color: #E04B06;
+    border:2px solid #E04B06;
     font-family: Arial, Helvetica, sans-serif;
     font-size:medium;
     font-weight:bolder;
-    color:#a93e4a;
+    color:#FFF8E1;
     padding:3%;
     
 }
