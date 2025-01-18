@@ -29,7 +29,7 @@ h1 {
     background-size: cover; 
 }
 
-a {
+.agendacita {
     position: absolute;
     top: 35px;
     right: 40px;
@@ -199,5 +199,44 @@ form{
     padding:3%;
     
 }
+/*Estilización de footer*/
+
+footer{
+    display:flex; 
+    flex-flow:column; 
+    justify-content:center; 
+    align-items: center; 
+    background-color:#D7CBB5 ;
+    width: 100%;
+    margin: 15px;
+}
+
+.enlaces{ 
+    display:flex; 
+    flex-flow: row; 
+    
+    
+}
+.enlaces li { 
+    margin: 10px; 
+    color:#FFF8E1;
+}
+#negrita1{
+    font-weight:900;
+    font-size: large;
+}
+#negrita2{
+    font-weight:900;
+    font-size: large;
+}
+#negrita3{
+    font-weight:900;
+    font-size: large;
+}
+
+#copyright{
+    font-weight: 650;
+}
+
 
 
