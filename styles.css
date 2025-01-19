@@ -18,8 +18,7 @@ h1 {
     text-align: center;
     font-family: "Concert One", serif;
     font-weight: 400;
-    font-style: normal;
-    /*inclinacion*/
+
     font-size: 500%;
     line-height: 200%;/*espaciado entre la pagina y el h1*/
     background-image:linear-gradient(rgba(0,0,0,0.7),
@@ -109,9 +108,7 @@ body h2{
 }
 .proyecto{
     width:80%;
-    height: px;
-    box-sizing: border-box;
-    background-color: #c77;
+    height:600px;
     display:flex;
     flex-flow:column;
     justify-content: center;
@@ -121,12 +118,12 @@ body h2{
 }
 .proyecto img{
     width: 80%;
-    
 }
 .proyecto p{
     font-family: "poppins", sans-serif;
     font-size: small;
     text-align: justify;
+    
     
 }
 /*Decoración por ID en cada uno de los proyectos*/
